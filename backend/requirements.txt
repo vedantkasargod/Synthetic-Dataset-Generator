@@ -1,0 +1,24 @@
+# backend/requirements.txt
+
+fastapi
+uvicorn[standard] # Includes websockets and other goodies
+requests
+python-multipart # For handling file uploads in FastAPI forms
+pillow
+numpy
+scikit-image
+albumentations
+pyyaml
+joblib
+tqdm
+ultralytics # If using YOLO for detection (add if needed by synth gen)
+peft # If needed by LoRA loading (likely needed by Colab backend call if it reloads)
+diffusers # If needed by Colab backend call (if it reloads)
+transformers # If needed by Colab backend call (if it reloads)
+accelerate # If needed by Colab backend call (if it reloads)
+safetensors # If needed by Colab backend call (if it reloads)
+torch # If needed by Colab backend call (if it reloads)
+torchvision # If needed by Colab backend call (if it reloads)
+invisible_watermark # If needed by Colab backend call (if it reloads)
+# Add pyngrok and nest_asyncio ONLY if running this specific script IN COLAB
+# If running locally, you don't need ngrok here.

@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node Dependencies
+# --------------------
+/node_modules
+/.pnpm-store # Add pnpm store cache
+
+# Next.js specific
+# --------------------
+/.next/
+/out/
+/build
+
+# TypeScript cache
+# --------------------
+*.tsbuildinfo
+
+# Logs
+# --------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Environment Variables
+# --------------------
+.env*
+!.env.example # Do not ignore .env.example files
+
+# Deployment Artifacts
+# --------------------
+.vercel
+
+# Python Backend Specific
+# --------------------
+/backend/venv/
+/backend/.venv/
+/backend/env/
+/backend/ENV/
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/.env* # Also ignore env files specifically within backend
+
+# Operating System Files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# Optional Editor Config
+# --------------------
+# .vscode/* # Uncomment if you want to ignore all vscode files
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+
+# Other Cache/Generated Files
+# --------------------
+# Add any other specific cache or generated files here
