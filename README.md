@@ -1,10 +1,13 @@
 ![image](https://github.com/user-attachments/assets/eccd1f61-36a3-460e-9f1a-062e1d88594b)
+![image](https://github.com/user-attachments/assets/ea8183ac-db62-43cd-9936-fe18a79b758a)
+
 
 Making a dataset from SORA, Midjourney, Leonardo AI. Often bugged with asking for subscriptions and limited image generations? 
 Want a synthetic dataset to train your model for research? But manually typing in prompts again and again pisses you off?
 Synthetic-Dataset-Gen got you. 
 It has 2 parts integrated into a single web interface (Open to ideas to scale).
 Want GAN/Stable-Diffusion generated images at a time, auto augmented, ready for classification and detection tasks?
+
 **Prompt generation** - This big but computationally optimal guy got you covered. 
                         What does it do uniquely: 
                         Problem : Running the stable diffusion model on colab to use it's T4 GPU. But generation of multiple images eventually tears the resources leading to the GPU dying and kernel 
